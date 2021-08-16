@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    --background: #ECF6FF;
+    --white: #FFFFFF;
+
+    --blue-dark: #013A6B;
+    --blue-light: #4AA1EE;
+    --blue: #037EEB;
+    --blue-gradient: linear-gradient(268.15deg, #0263B8 -8.6%, #4AA1EE 103.89%);
+
+    --box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.15);
+}
+
+body{
+    height: 100vh;
+    background: var(--background);
+}
+
+a.button,
+button.button{
+    padding: 1.2rem 2rem;
+    background: var(--blue);
+    color: var(--white);
+    border-radius: .8rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+a.button:hover,
+button.button:hover{
+    filter: brightness(1.2);
+    box-shadow: var(--box-shadow);
+}
+
+p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
